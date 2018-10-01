@@ -24,6 +24,8 @@ class Show < ActiveRecord::Base
     
   end
   
-  def self.
+  def self.shows_by_alphabetical_order
+    
+  end
 
 end
