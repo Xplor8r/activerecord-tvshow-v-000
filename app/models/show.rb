@@ -14,7 +14,7 @@ class Show < ActiveRecord::Base
   
   def self.least_popular_show
   movie = self.where("rating")
-  movie.order("rating DESC").first
+  movie.order("rating").first
   end
   
   def self.ratings_sum
